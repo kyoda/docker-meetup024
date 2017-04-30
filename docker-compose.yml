@@ -1,0 +1,9 @@
+version: '3.0'
+services:
+  notebook:
+    build: .
+    ports:
+    - "8888:8888"
+    volumes:
+    - .:/opt/notebooks
+    container_name: notebook
