@@ -4,6 +4,7 @@ services:
     build: .
     ports:
     - "8888:8888"
+    - "6006:6006"
     volumes:
     - .:/opt/notebooks
     container_name: notebook
